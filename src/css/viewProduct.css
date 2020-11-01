@@ -1,0 +1,67 @@
+.view-container{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.view-container .card{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.view-container img{
+    width: 500px;
+}
+
+.view-container .addButton{
+    background-color: #005A41;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.view-container .viewButton{
+    background-color: white;
+    color: #005A41;
+    padding: 8px 10px;
+    border: 1px solid #005A41;
+    cursor: pointer;
+}
+
+.related-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.related-container .card{
+    border: 1px solid #ccc;
+    height: 450px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+}
+
+.related-container img{
+    width: 120px;
+}
+
+@media screen and (max-width: 800px) {
+    .card img{
+        width: 300px;
+    }
+
+   .related-container .card{
+       width: 90%;
+   } 
+}

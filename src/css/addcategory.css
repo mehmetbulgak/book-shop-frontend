@@ -1,0 +1,52 @@
+.addcategory-container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.addcategory-container form {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.addcategory-container input {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #ccc;
+}
+
+.addcategory-container button {
+    height: 40px;
+    padding: 0 15px;
+    background-color: #007251;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.goback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goback a{
+    color: #007251;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    .addcategory-container form{
+        flex-direction: column;
+    }
+
+    .addcategory-container form input{
+        margin-bottom: 20px;
+    }
+}

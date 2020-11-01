@@ -1,0 +1,40 @@
+.dashboard-container {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+}
+
+.dashboard-container ul {
+    list-style: none;
+}
+
+.admin-links {
+    padding: 20px;
+    width: 20%;
+    border: 1px solid #ccc;
+}
+
+.admin-links a {
+    text-decoration: none;
+    color: #005A41;
+}
+
+.admin-info {
+    margin-left: 100px;
+    flex: 2;
+}
+
+@media screen and (max-width: 800px) {
+    .dashboard-container {
+        flex-direction: column;
+    }
+
+    .admin-links{
+        width: 80%;
+    }
+
+    .admin-info{
+        margin-top: 40px;
+        margin-left: 0;
+    }
+}

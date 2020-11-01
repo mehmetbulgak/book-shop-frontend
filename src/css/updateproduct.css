@@ -1,0 +1,57 @@
+.addproduct-header{
+    width: 80%;
+    margin: 10px auto 0 auto;
+}
+
+.addproduct-container form{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.addproduct-container input {
+    border: 2px solid #E4E3E3;
+    height: 30px;
+    padding: 10px;
+    outline-color: #007251;
+}
+
+.addproduct-container label{
+    margin-top: 10px;
+}
+
+.photoinput{
+    height: 40px !important;
+    border: none !important;
+    width: 50% !important;
+}
+
+.addproduct-container textarea{
+    border: 2px solid #E4E3E3;
+    height: 100px;
+    padding: 10px;
+    outline-color: #007251;
+}
+
+.addproduct-container select{
+    border: 2px solid #E4E3E3;
+    outline-color: #007251;
+    height: 30px;
+}
+
+.addproduct-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.addproduct-container button{
+    background-color: #007251;
+    border: none;
+    color: white;
+    width: 150px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

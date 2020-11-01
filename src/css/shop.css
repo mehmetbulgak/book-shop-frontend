@@ -1,0 +1,106 @@
+.shop-container{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+}
+
+.shop-left{
+    flex: 1;
+}
+
+.shop-right{
+    flex: 4;
+}
+
+.shop-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shop-item{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 350px;
+    border: 2px solid #E4E3E3;
+    padding: 20px 50px;
+    margin: 15px;
+}
+
+.shop-item .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.shop-item img{
+    width: 120px;
+}
+
+.shop-item .viewButton{
+    background-color: #005A41;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.shop-item .addButton{
+    background-color: white;
+    border: 1px solid #005A41;
+    color: #005A41;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.load-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.loadButton{
+    background-color: #005A41;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.shop-container .card-desc{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .shop-container{
+        flex-direction: column;
+    }
+
+    .shop-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .shop-right{
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .shop-item{
+        height: 550px;
+        margin: 20px 0 20px 0;
+        width: 300px;
+    }
+
+    .shop-item .card img{
+        width: 200px;
+    }
+}

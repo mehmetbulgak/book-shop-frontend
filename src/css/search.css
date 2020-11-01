@@ -1,0 +1,107 @@
+.searchForm{
+    margin-top: 20px;
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(228, 227, 227);
+    padding: 30px 20px;
+}
+
+.searchForm select{
+    height: 30px;
+    outline: none;
+    border: none;
+}
+
+.searchForm input{
+    width: 80%;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.searchForm button{
+    height: 30px;
+    padding: 0 15px;
+    background-color: #007251;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.searchForm button:hover{
+    background-color: #005a41;
+}
+
+.search-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.search-item .card{
+    border: 1px solid #ccc;
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+}
+
+.search-item img{
+    width: 120px;
+}
+
+.search-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.search-item .viewButton{
+    background-color: #005A41;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-item .addButton{
+    background-color: white;
+    border: 1px solid #005A41;
+    color: #005A41;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .search-container{
+        width: 100%;
+    }
+
+    .searchForm{
+        flex-direction: column;
+    }
+
+    .searchForm input{
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .search-item .card{
+        width: 300px;
+        height: 550px;
+    }
+
+    .search-item .card img{
+        width: 200px;
+    }
+}

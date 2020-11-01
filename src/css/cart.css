@@ -1,0 +1,83 @@
+.cart-container{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+}
+
+.cart-container-left{
+    flex: 1;
+}
+
+.cart-container-right{
+    flex: 1;
+}
+
+.cart-container .card{
+    border: 1px solid #ccc;
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+}
+
+.cart-container img{
+    width: 100px;
+}
+
+.cart-container .card-price{
+    color: #005A41;
+}
+
+.cart-container .card-desc{
+    display: none;
+}
+
+.cart-container .viewButton{
+    background-color: #005A41;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-container .removeButton{
+    background-color: white;
+    border: 1px solid #005A41;
+    color: #005A41;
+    padding: 7px 8px;
+    cursor: pointer;
+}
+
+.adress-textarea{
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.adress-header{
+    margin-top: 20px;
+}
+
+.payButton{
+    background-color: #005A41;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .cart-container{
+        flex-direction: column;
+    }
+
+    .cart-container .card{
+        width: 100%;
+        margin: 20px 0;
+        padding: 20px;
+        height: 500px;
+    }
+}
